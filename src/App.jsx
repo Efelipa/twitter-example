@@ -1,8 +1,13 @@
+import './App.css';
+
 const ProfileMapping = ({ profiles }) => {
   return (
     <>
+    <div className="top">
+      <span>A quien seguir</span>
+    </div>
       {(profiles.length == 0)
-        ? <article key={profiles[0].name}>
+        ? <article key={profiles[0].id}>
             <header className="header-flex">
               <img src={profiles[0].img} alt={profiles[0].name} />
               <div className="flex-titles">
@@ -33,6 +38,11 @@ const ProfileMapping = ({ profiles }) => {
           </article>
         ))
       }
+      <div className="bottom">
+        <span>
+          Mostrar mas
+        </span>
+      </div>
     </>
   );
 };
@@ -46,9 +56,9 @@ function App() {
       id: 1,
     },
     {
-      name: 'ᴀᴅʀɪᴀ́ɴ sᴀ́ɴᴄʜᴇᴢ',
-      username: '@_AdrianSnchz',
-      img: 'https://pbs.twimg.com/profile_images/1648712477067079681/H7GVRx7p_400x400.jpg',
+      name: 'Fabrizzio Romano',
+      username: '@fromano',
+      img: 'https://pbs.twimg.com/profile_images/1486761402853380113/3ifAqala_400x400.jpg',
       id: 2,
     },
   ];

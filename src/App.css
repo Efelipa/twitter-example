@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+  }
+  article {
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    font-size: .8rem;
+  }
+  article:hover {
+    background-color: #323232;
+    cursor: pointer;
+  }
+  header, aside {
+    padding: 10px;
+  }
+  article img {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+  }
+  /* Utilities */
+  .header-flex {
+    display: flex;
+    gap: 30px;
+  }
+  .flex-titles {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* Button */
+  .follow-button {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  .button-follow {
+    border: 2px solid white;
+    background-color: white;
+    color: #222;
+  }
+  .button-follow:hover {
+    border: 2px solid white;
+    background-color: #222;
+    color: white;
+  }
+  .top, .bottom {
+    background-color: #222;
+    min-height: 50px;
+  }
+  .top {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+  }
+  .bottom {
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.top span{
+padding: 10px;
+}
+.bottom span {
+padding: 10px;
+color: rgb(29, 155, 240);
+cursor: pointer;
+}

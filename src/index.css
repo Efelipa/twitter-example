@@ -2,64 +2,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: dark light;
   color: rgba(255, 255, 255, 0.87);
   background-color: #000;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-body {
-  box-sizing: content-box;
-  display: grid;
-  
-}
-article {
-  background-color: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-article:hover {
-  background-color: #323232;
-  cursor: pointer;
-}
-header, aside {
-  padding: 10px;
-}
-article img {
-  border-radius: 50%;
-  height: 15%;
-  width: 15%;
-}
-/* Utilities */
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-}
-.flex-titles {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-/* Button */
-.follow-button {
-  border-radius: 10px;
-  border: none;
-  padding: 5px 12px;
-  cursor: pointer;
-}
-.button-follow {
-  border: 2px solid white;
-  background-color: white;
-  color: #222;
-}
-.button-follow:hover {
-  border: 2px solid white;
-  background-color: #222;
-  color: white;
 }
